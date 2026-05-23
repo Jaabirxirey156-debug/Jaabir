@@ -10,10 +10,10 @@ nav{
   
 }
 h1{
-  background-color:#990000;
+  background-color(:#990000;)
   color: white;
   border-radius: (40px;)
-  padding: 20px;
+  padding: (20px;)
   box-shadow: (20px 5px 20px;)
   
 }
@@ -26,7 +26,7 @@ ul{
   list-style: none;
 }
 ol{
-  background-color:#875432;
+  background-color(:#875432;)
   color: #099;
   border-radius: 30px;
 }
