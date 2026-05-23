@@ -1,81 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial;
-}
-
+/* BODY */
 body{
-    background: #f5f5f5;
-}
-
-/* Hero */
-.hero{
-    text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(135deg,#3b82f6,#06b6d4);
+    background: linear-gradient(135deg,#0f172a,#1e293b);
     color: white;
-}
-
-.hero button{
-    margin-top: 15px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    background: white;
-    color: black;
-    cursor: pointer;
-}
-
-/* Cards */
-.cards{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px;
-    flex-wrap: wrap;
-}
-
-.card{
-    background: white;
+    font-family: Arial, sans-serif;
     padding: 20px;
-    width: 250px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    text-align: center;
 }
 
-/* About */
-.about{
-    background: #d1fae5;
-    text-align: center;
-    padding: 50px;
+/* TITLE */
+h1{
+    color: #facc15;
+
+    font-size: 55px;
+
+    text-shadow: 3px 3px 10px black;
 }
 
-/* Repo */
-.repo{
-    background: #fef3c7;
-    padding: 40px;
-    text-align: center;
+/* SMALL TEXT */
+p{
+    color: #e2e8f0;
+
+    font-size: 24px;
 }
 
-.repo ol{
-    display: inline-block;
-    text-align: left;
-    margin-top: 10px;
-}
+/* BUTTON */
+button{
+    background: linear-gradient(135deg,#22c55e,#15803d);
 
-/* Contact */
-.contact{
-    background: #e0f2fe;
-    text-align: center;
-    padding: 40px;
-}
-
-/* Footer */
-footer{
-    background: black;
     color: white;
+
+    border: none;
+
+    padding: 15px 30px;
+
+    border-radius: 15px;
+
+    font-size: 20px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+/* ALL BOXES */
+.section{
+    background: linear-gradient(135deg,#2563eb,#38bdf8);
+
+    padding: 25px;
+
+    margin-top: 25px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* SECTION TITLES */
+h2{
+    color: #facc15;
+
+    font-size: 40px;
+
+    text-shadow: 2px 2px 10px black;
+}
+
+/* LIST */
+li{
+    color: white;
+
+    font-size: 22px;
+}
+
+/* CONTACT BOX */
+.contact{
+    background: linear-gradient(135deg,#7c3aed,#4c1d95);
+
+    padding: 25px;
+
+    border-radius: 25px;
+
+    margin-top: 30px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* FOOTER */
+footer{
     text-align: center;
-    padding: 15px;
+
+    margin-top: 40px;
+
+    color: #cbd5e1;
+
+    font-size: 20px;
 }
